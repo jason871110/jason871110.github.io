@@ -1,0 +1,46 @@
+
+#firstpage{
+    background-image: url("img/IMG_20180804_134732.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 70%;
+   
+}
+#profile{
+    background-image: url("img/bg3.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 70%;
+    opacity:15%;
+}
+#project1{
+    background-image: url("img/bg2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 70%;
+}
+#pic1{
+    background-image: url("img/pj1.2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 70%;
+}
+
+/*typewriter*/
+.typewriter{
+    position: relative;
+    top:50%;
+    left:35%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
