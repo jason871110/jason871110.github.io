@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <!--scroll magic-->
@@ -35,6 +35,7 @@
 
 <!--my css and js-->
 <link rel="stylesheet" type="text/css" href="mystyle.css">
+<script src="myanimate.js"></script>
 <body>
         <style type="text/css">
             #pinContainer {
@@ -57,26 +58,46 @@
         <div id="pinContainer">
             <div id="slideContainer">
                 <section class="panel"  id="firstpage">
-                    <p style="position:relative;top:50%;left:50%;color: aliceblue;font-size:40pt;font-style:italic;">Hey,I'm</p>    
-                    <p style="position:relative;top:50%;left:38%;color:aliceblue;font-size:60pt;">——Jason CHI——</p> 
+                    <p style="position:relative;top:50%;left:50%;color: aliceblue;font-size: 50pt;font-style:italic;">Hey,I'm</p>    
+                    <p style="position:relative;top:50%;left:38%;color:aliceblue;font-size:80pt;">——Jason CHI——</p> 
                     <!--unsolve-->
     
-                    <h1 class="typewriter" style="position:relative;top:50%;left:33%;color:aliceblue;font-size:35pt;"></h1>
+                    <h1 class="typewriter" style="position:relative;top:50%;left:38%;color:aliceblue;font-size:45pt;"></h1>
                   
                 
                 </section>
                 <div id="trigger2"></div>
-                <section class="panel" id="project1" >
-                   
-                <div class="row"  style="position:relative;top:25%;left:5%;height:65%;width:60%">
-                    <div class="col-sm-4"  id="pic1">
+                <section class="panel container-fluid row" id="project1"  >
+                        <div class="col" id="leftside">
+                            <p style="display: block;color: whitesmoke;top:15%;font-size: 40px;position: relative;">Hey again!</p>
+                            <h1 style="display: block;color: whitesmoke;top:30%;font-size:120px;position: relative;">開源軟體競賽</h1>
+                            <a  onclick="showmore()">
+                                    <span data-text="M">M</span>
+                                    <span data-text="O">O</span>
+                                    <span data-text="R">R</span>
+                                    <span data-text="E">E</span>
+                            </a>
+                            <div class="pjname" style="position: relative;color:azure;top:45%;font-size: 60px">
 
-                    </div>
-                    <div class="col-sm-8" style="background-color: aquamarine">
+                            </div>
+                        </div>
+                  
+                        
 
-                    </div>
+                        <div class="col" id="rightside">
+                            <div class="row" style="height:50%;background-color:#fff991" id="upper">
+                        
+                              
+                            </div>
+                            <div class="row" style="height:50%;background-color:whitesmoke;" id="down">
+                        
+                              
+                            </div>
 
-                </div>
+
+
+
+                        </div>
                 </section>
                 <div id="trigger3"></div>
                 <section class="panel" id="profile" >
@@ -193,8 +214,18 @@
         typeSpeed: 30,
         loop:true
         });
+
+        function showmore () {
+            console.log("111");
+            var typed = new Typed('.pjname', {
+            strings: ["", "基於影像辨識基於影像辨識手語查詢暨學習成果檢測系統"],
+            typeSpeed: 30,
+            // loop:true
+            });
+  
+        }
         
-        console.log()
+      
 
        </script>
        
@@ -219,11 +250,12 @@
                     .to("#slideContainer", 1,   {x: "-75%"})
                     .to("#slideContainer", 0.5, {z: 0})
                     
-                    
-                    
                     .to("#slideContainer", 0.5, {z: -150, delay: 1})
-                    .to("#slideContainer", 1,   {x: "-75%"})
+                    .to("#slideContainer", 1,   {x: "-100%"})
                     .to("#slideContainer", 0.5, {z: 0});
+                    
+                    
+                  
                 
               
 
