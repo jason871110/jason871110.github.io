@@ -36,7 +36,7 @@
 <script src="myanimate.js"></script>
 <body>
         <style type="text/css">
-         body { zoom: 0.5; } 
+         /* body { zoom: 0.5; }  */
             #pinContainer {
                 width: 100%;
                 height: 100% !important;
@@ -52,11 +52,12 @@
                 height: 100%;
                 width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
                 float: left;
+                overflow: hidden;
             }
         </style>
         <div id="pinContainer">
-            <div id="slideContainer">
-                <section class="panel"  id="firstpage">
+            <div id="slideContainer" >
+                <section class="panel"  id="firstpage" style="zoom:0.5">
                     <p style="position:relative;top:50%;left:50%;color: aliceblue;font-size: 50pt;font-style:italic;">Hey,I'm</p>    
                     <p style="position:relative;top:50%;left:38%;color:aliceblue;font-size:80pt;">——Jason CHI——</p> 
                     <!--unsolve-->
@@ -66,7 +67,7 @@
                 
                 </section>
                 <div id="trigger2"></div>
-                <section class="panel container-fluid row" id="project1"  >
+                <section class="panel container-fluid row" id="project1"  style="zoom:0.5" >
                         <div class="col" id="leftside">
                             <p style="display: block;color: whitesmoke;top:15%;font-size: 40px;position: relative;">Hey again!</p>
                             <h1 style="display: block;color: whitesmoke;top:30%;font-size:120px;position: relative;">開源軟體競賽</h1>
@@ -99,24 +100,27 @@
                         </div>
                 </section>
                 <div id="trigger3"></div>
-                <section class="panel" id="profile" >
+                <section class="panel container-fluid" id="profile"  style="zoom:0.5" >
                     <!-- <strong id="title" style="font-style: italic;font-size:100px;top: 15%;left:45%;position: relative;">Social Media</strong> -->
                     
                     <div class="box" >
                                 <div  style="height:100%;width:100%;bottom:30%">
                                      <div class="row">
                                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                                <div class="box-part text-center">
+                                                <div class="box-part text-center" >
                                                     <i class="fa fa-wechat fa-3x" aria-hidden="true"></i>
                                                     <div class="title">
                                                         <h3>Wechat</h3>
                                                     </div>
+                                                    <br>
                                                     <div class="text">
                                                         <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
                                                     </div>
+                                                    <br>
                                                     <img src="img/frame (1).png" class="img-fluid" alt="Responsive image" class="qrcode" style="height:200px;" >
                                                     <br>
-                                                    <a href="#">Learn More</a>
+                                                    <br>
+                                                    <a1 class="text" style="font-size: 60px;padding:7px;border-style:dashed;">Learn More</a1>
                                                  </div>
                                             </div>
                                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -125,12 +129,16 @@
                                                     <div class="title">
                                                         <h3>Instagram</h3>
                                                     </div>
+                                                    <br>
                                                     <div class="text">
                                                         <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
                                                     </div>
+                                                    <br>
                                                     <img src="img/frame (1).png" class="img-fluid" alt="Responsive image" class="qrcode" style="height:200px;" >
                                                     <br>
-                                                    <a href="#">Learn More</a>
+                                               
+                                                    <br>
+                                                    <a1 class="text" style="font-size: 60px;padding:7px;border-style:dashed;">Learn More</a1>
                                                  </div>
                                             </div>
                                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -139,12 +147,16 @@
                                                     <div class="title">
                                                         <h3>Facebook</h3>
                                                     </div>
+                                                    <br>
                                                     <div class="text">
                                                         <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
                                                     </div>
+                                                    <br>
                                                     <img src="img/frame (1).png" class="img-fluid" alt="Responsive image" class="qrcode" style="height:200px;" >
                                                     <br>
-                                                    <a href="#">Learn More</a>
+                                                 
+                                                    <br>
+                                                    <a1 class="text" style="font-size: 60px;padding:7px;border-style:dashed;">Learn More</a1>
                                                  </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -153,12 +165,16 @@
                                                     <div class="title">
                                                         <h3>Linkedin</h3>
                                                     </div>
+                                                    <br>
                                                     <div class="text">
                                                         <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
                                                     </div>
+                                                    <br>
                                                     <img src="img/frame (1).png" class="img-fluid" alt="Responsive image" class="qrcode" style="height:200px;" >
                                                     <br>
-                                                    <a href="#">Learn More</a>
+                                                  
+                                                    <br>
+                                                    <a1 class="text" style="font-size: 60px;padding:7px;border-style:dashed;">Learn More</a1>
                                                  </div>
                                             </div>
                                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -167,12 +183,16 @@
                                                     <div class="title">
                                                         <h3>Google</h3>
                                                     </div>
+                                                    <br>
                                                     <div class="text">
                                                         <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
                                                     </div>
+                                                    <br>
                                                     <img src="img/frame (1).png" class="img-fluid" alt="Responsive image" class="qrcode" style="height:200px;" >
                                                     <br>
-                                                    <a href="#">Learn More</a>
+                                                  
+                                                    <br>
+                                                    <a1 class="text" style="font-size: 60px;padding:7px;border-style:dashed;">Learn More</a1>
                                                  </div>
                                             </div>
                                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -181,12 +201,16 @@
                                                     <div class="title">
                                                         <h3>Github</h3>
                                                     </div>
+                                                    <br>
                                                     <div class="text">
                                                         <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
                                                     </div>
+                                                    <br>
                                                     <img src="img/frame (1).png" class="img-fluid" alt="Responsive image" class="qrcode" style="height:200px;" >
                                                     <br>
-                                                    <a href="#">Learn More</a>
+                                                   
+                                                    <br>
+                                                    <a1 class="text" style="font-size: 60px;padding:7px;border-style:dashed;">Learn More</a1>
                                                  </div>
                                             </div>
 
@@ -198,7 +222,7 @@
 
                 </section>
                 <div id="trigger4"></div>
-                <section class="panel " style="background:blue" >
+                <section class="panel"   style="zoom:0.5" >
                         <b>Four</b>             
                 </section>
             </div>
@@ -240,11 +264,13 @@
                     .to("#slideContainer", 1,   {x: "-50%"})
                     .to("#slideContainer", 0.5, {z: 0})
                     // animate to forth panel
-                    
                     .to("#slideContainer", 0.5, {z: -150, delay: 1})
                     .to("#slideContainer", 1,   {x: "-75%"})
-                    .to("#slideContainer", 0.5, {z: 0});
+                    .to("#slideContainer", 0.5, {z: 0})
 
+                    .to("#slideContainer", 0.5, {z: -150, delay: 1})
+                    .to("#slideContainer", 1,   {x: "-100%"})
+                    .to("#slideContainer", 0.5, {z: 0});
                 
                     
           
