@@ -81,16 +81,41 @@
 
                             </div>
                         </div>
-                  
                         
 
                         <div class="col" id="rightside">
-                            <div class="row" style="height:50%;background-color:#fff991" id="upper">
-                        
-                              
+                            <div class="row" style="height:50%;background-color:#fff991;padding:50px;display:block;padding-left:15%" id="upper">   
+                                <div style="text-align:center ">
+                                    <h style="font-size: 60px;font-style: oblique;font-family:monospace">Using tool</h>
+                                </div>
+                                
+                                <div class="tool row"  >
+                                <img src="img/webcam.png" style="float:left;">
+                                <p style="font-size: 50px;left:30px;font-family:monospace;position: relative;top:15px">webcam.js</p>
+                                </div>   
+                                <div class="tool row"  >
+                                    <img src="img/html.png" style="float:left;">
+                                    <p style="font-size: 50px;left:30px;font-family:monospace;position: relative;top:15px">web</p>
+                                </div>   
+                                <div class="tool row" >
+                                    <img src="img/proposal.png" style="float:left;">
+                                    <p style="font-size: 50px;left:30px;font-family:monospace;position: relative;top:15px">proposal</p>
+                                </div>       
                             </div>
-                            <div class="row" style="height:50%;background-color:whitesmoke;" id="down">
-                        
+
+                            <div class="row" style="height:50%;background-color:whitesmoke;padding:50px;padding-left: 15%;display: block;" id="down">
+                             <div  style="text-align:center;">
+                                <h style="font-size: 60px;font-style: oblique;font-family:monospace;">Introduction</h>
+                             </div>
+                             <div class="content">
+                                 <br>
+                                <p1 style="font-size: 35px;font-family:monospace;">This competition is the first competition that my friends and I joined in university.Due to the unfamiliar of working flow of a project.We changed topic one week before
+                                 the tryout.So we use only two week to develop the project, that might be two of my <span style="color:red">"most memorable、unforgettable "</span>  
+                                week.<span style="color: seagreen" class="typedetail"> </span></p1>
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-outline-primary slideup" style="font-size: 35px;font-family:monospace;" onclick="showdetail()">Detail</button>
+                            </div>
                               
                             </div>
 
@@ -246,6 +271,15 @@
             });
   
         }
+        function showdetail(){
+            console.log("www");
+            var typed = new Typed('.typedetail', {
+            strings: ["", "Maybe we can discuss in our interview or the time I working in your company."],
+            typeSpeed: 30,
+            // loop:true
+            });
+        }
+
        </script>
        
        <script>
