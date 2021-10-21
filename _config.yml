@@ -48,9 +48,8 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Hi, my name's Jason. I am a new graduate from NCKU. I have several experiences in developing an embedded system. I also have experience in Deep Learning, as well as developing App(Android) and Web. 
+    I am most skilled in: <mark>Embedded systems</mark> and <mark>Algorithm </mark>
 
 content:
   - title: Education # Title for the section
@@ -203,14 +202,12 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Alongside my interests in cyber-physical system and software engineering some of my other interests and past extracurricular activities are:
+   - Runner, NCKU School Track and Field Team 
+   - Activity Organizer/Housekeeper, International Hostel, Nanjing, China 
+   - Member, Motors Club, NCKU 
+   - Member, Rotary Club, NCKU
+   - Organizer, Electrical Engineering Summer Camp, NCKU 
 
 # Footer
 footer_show_references: true
