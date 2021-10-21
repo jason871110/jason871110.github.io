@@ -6,26 +6,26 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: YAO-CHEN CHI
+title: B.S.E. in Electrical Engineering, National Cheng Kung University (NCKU)
+email: jason871110@gmail.com
+website: https://jason871110.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+twitter_username: jason871110
+github_username: jason871110
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+instagram_username: tzjnn
+linkedin_username: yao-chen-chi-670ab3179
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+youtube_username: jason871110
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -58,7 +58,7 @@ content:
     content:
       - layout: top-middle
         title: Super awesome project
-        link: github.com/sproogen
+      
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
