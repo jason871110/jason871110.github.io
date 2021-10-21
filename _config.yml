@@ -15,7 +15,7 @@ website: https://jason871110.github.io/
 darkmode: false
 
 # Social links
-twitter_username: jason871110
+#twitter_username: jason871110
 github_username: jason871110
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -25,7 +25,7 @@ instagram_username: tzjnn
 linkedin_username: yao-chen-chi-670ab3179
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: jason871110
+#youtube_username: jason871110
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -57,20 +57,22 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
+        title: Optimization for Content-Centric Networking, Introduction to Real-time System, NCKU  
       
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        #additional_links:
+         # - title:  sproogen/modern-resume-theme
+          #  icon: fab fa-github
+           # url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        #quote: >
+         # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+• Implementing Content-Centric Networking on Python by Multithreaded Programming 
+• Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network (Highest 
+cache hit ratio in class)
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
