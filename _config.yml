@@ -70,19 +70,31 @@ content:
         #quote: >
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          
           - Implementing Content-Centric Networking on Python by <mark>Multithreaded Programming</mark>
 
           - Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network <mark>(Highest cache hit ratio in class)</mark>
 
-      - layout: top-middle
+	  - layout: top-middle
         title: Second project   
         description: | # this will include new lines to allow paragraphs
 
           - Implementing Content-Centric Networking on Python by <mark>Multithreaded Programming</mark>
 
           - Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network <mark>(Highest cache hit ratio in class)</mark>
-          
+	  - layout: top-middle
+        title: Second project   
+        description: | # this will include new lines to allow paragraphs
+
+          - Implementing Content-Centric Networking on Python by <mark>Multithreaded Programming</mark>
+
+          - Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network <mark>(Highest cache hit ratio in class)</mark>
+	  - layout: top-middle
+        title: Second project   
+        description: | # this will include new lines to allow paragraphs
+
+          - Implementing Content-Centric Networking on Python by <mark>Multithreaded Programming</mark>
+
+          - Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network <mark>(Highest cache hit ratio in class)</mark>       
             
 
   - title: Experience # Title for the section
