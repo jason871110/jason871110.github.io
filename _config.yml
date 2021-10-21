@@ -72,7 +72,12 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Implementing Content-Centric Networking on Python by <mark>Multithreaded Programming</mark>
 
-          - Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network <mark>(Highest cache hit ratio in class)</mark> 
+          - Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network <mark>(Highest cache hit ratio in class)</mark>
+        title: Optimization for Content-Centric Networking   
+        description: | # this will include new lines to allow paragraphs
+          - Implementing Content-Centric Networking on Python by <mark>Multithreaded Programming</mark>
+
+          - Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network <mark>(Highest cache hit ratio in class)</mark>  
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
