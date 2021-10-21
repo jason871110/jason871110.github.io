@@ -60,6 +60,8 @@ content:
         title: National Cheng Kung University
         caption: 2017 - 2021 
         sub_title: BSc Electrical Engineering
+        quote: >
+           As a top university in Taiwan, NCKU has played a vital role in creating the Taiwan Miracle by helping Taiwan to transform from an agriculture-based society to an industrialized economy during the 1960s and 1970s, and further becoming one of the Four Asian Tigers.To this day, NCKU has many successful alumni in various industries in Taiwan. According to LinkedIn data, many of its graduates work in companies including TSMC, MediaTek, UMC, Applied Materials, and more. NCKU has been taking the top spot at the Global Views Monthly Taiwan Graduate Employability Rankings for 6 consecutive years.
         description: | # this will include new lines to allow paragraphs
           - Last 60 GPA: **4.25/4.3**
           - Cumulative GPA: 3.74/4.3
@@ -69,7 +71,8 @@ content:
     content:
       - layout: top-middle
         title:  Optimization for Content-Centric Networking
-        sub_title: May 2021 - June 2021
+        layout: top-right
+        title: May 2021 - June 2021
         description: |
           - Implementing Content-Centric Networking on Python by **Multithreaded Programming** 
           - Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network **(Highest cache hit ratio in class)**
