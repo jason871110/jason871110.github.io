@@ -69,7 +69,7 @@ content:
           - Used **Fast Fourier Transform (FFT) and Band-pass filter** to filter the noise in the collecting data, then employed **“XGBoost”** as the primary model to classify potholes from collecting data **with 0.985 accuracy** 
           
       - layout: top-middle
-        title: Optimization for Content-Centric Networking  
+        title: Machine Learning for Stock Trading  
       
         # link_text: Project Website
         #additional_links:
@@ -82,20 +82,24 @@ content:
         #quote: >
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          - Implementing Content-Centric Networking on Python by <mark>Multithreaded Programming</mark>
+          - Referred to a paper posted on ICAIF 2020 about deep reinforcement learning for automated stock trading
 
-          - Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network <mark>(Highest cache hit ratio in class)</mark>
-
+          - Proposed a deep reinforcement ensemble trading method based on the combination of **Deep Deterministic Policy Gradient (DDPG) and Advantage Actor-Critic(A2C)**, which increased cumulative return from 70.4% to 121% from Jan 2016 to May 2020 and increased Sharpe Ration from 1.30 to 1.61 compared to the approach from original method (Best final presentation in class)
+	  - layout: top-middle
+        title: Optimization of Hyperplane-based Craig-simplex-identification Algorithm & Improvement for Hyperspectral Inpainting Method
+        description: |
+          - Developed algorithm that takes **only 50% of time** compared to the original algorithm **(Fattest in class)**
+      - layout: top-middle
+        title: Smart K
+        description: |
+          - Used **Raspberry Pi, Arduino, sensors, relays, and infrared transmitter** to control the **light and air-conditioner** in the classroom
+          - Implemented **Yolov3 through darknet** structure on Raspberry Pi to check for students in classroom
+           
       - layout:  top-middle
-        title: Second project   
+        title: Fingerprint Boosting Scooter   
         description: | # this will include new lines to allow paragraphs
-          - Implementing Content-Centric Networking on Python by <mark>Multithreaded Programming</mark>
-
-          - Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network <mark>(Highest cache hit ratio in class)</mark>
-          
+          - Used Arduino, fingerprint module, and other electronic parts to transform my normal scooter into fingerprint boosting scooter 
    
-            
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
