@@ -57,14 +57,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title:  First
+        title:  Optimization for Content-Centric Networking
         description: |
-          - hello
-          
+          - Implementing Content-Centric Networking on Python by **Multithreaded Programming** 
+          - Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network **(Highest cache hit ratio in class)**
+           
       - layout: top-middle
-        title: Dual
+        title: Road Doctor
         description: |
-          - dis
+          - Proposed an automated **mobile-based (Android)** road condition monitoring system
+          - Used **Fast Fourier Transform (FFT) and Band-pass filter** to filter the noise in the collecting data, then employed **“XGBoost”** as the primary model to classify potholes from collecting data **with 0.985 accuracy** 
           
       - layout: top-middle
         title: Optimization for Content-Centric Networking  
