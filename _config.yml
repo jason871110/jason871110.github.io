@@ -66,10 +66,13 @@ content:
           - Last 60 GPA: **4.25/4.3**
           - Cumulative GPA: 3.74/4.3
           - Dean's List Award(top 5% of the class)
-                - Ranked 1 out of 55 in Spring 2021 semester. 
-                - Ranked 2 out of 55 in Fall 2020 semester.
-                - Ranked 3 out of 55 in Spring 2020 semester.
 
+                Ranked 1 out of 55 in Spring 2021 semester.
+
+                Ranked 2 out of 55 in Fall 2020 semester.
+
+                Ranked 3 out of 55 in Spring 2020 semester.
+          - Fellowship, National Science Concil: One of 8 students out of 162 in NCKU Department of Electrical Engineering that won the fellowship.
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -121,16 +124,33 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title:  Third Place, Online Research Day, NCKU College of Electrical Engineering & Computer Science 
+        title:  *Third Place*, Online Research Day, NCKU College of Electrical Engineering & Computer Science 
         description: |
           - Received for ranking 3 out of 270 students from NCKU College of Electrical Engineering & Computer Science.(June 2021)     
       - layout: top-middle
-        title: Scholarship, Cathay United Bank
+        title: *Scholarship*, Cathay United Bank
         description: |
-          - Received for my outstanding academic performance.(May2020;May2021).  
-
-
-
+          - Received for my outstanding academic performance.(May 2020;May 2021).  
+      - layout: top-middle
+        title: *First Place*, Undergraduate Research
+        description: |
+          - Won in Computer and COmmunication track.(Apr 2020)
+      - layout: top-middle
+        title: *High Distinction* Award of Cross-disciplinary Final Presentation
+        description: |
+          - Earned for ranking 1st out of 30 teams in Foresight Talent Cultivation Program (Jan 2021)
+      - layout: top-middle
+        title: *Qualcomm Special Award*, MOBILEHERO Competition-Internet of Things Track
+        description: |
+          - Received for being in top 5 of 492 teams.(Nov 2020)
+      - layout: top-middle
+        title: *Best Summer Intern Award*, AU Optronics Corporation      
+        description: |
+          - Received for ranking 1 out of 90 interns.(Aug 2019)
+      - layout: top-middle
+        title: *Honorable Mention Award*, National Open-source Software Design Competition 
+        description: |
+          - Earned for ranking 4 out of 50 teams.(Dec 2018) 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
