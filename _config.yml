@@ -57,6 +57,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title:  First
+        description: |
+          - hello
+          
+      - layout: top-middle
+        title: Dual
+        description: |
+          - dis
+          
+      - layout: top-middle
         title: Optimization for Content-Centric Networking  
       
         # link_text: Project Website
