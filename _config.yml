@@ -74,22 +74,24 @@ content:
 
           - Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network <mark>(Highest cache hit ratio in class)</mark>
 
-	  - layout: top-middle
+      - layout:  top-middle
         title: Second project   
         description: | # this will include new lines to allow paragraphs
 
           - Implementing Content-Centric Networking on Python by <mark>Multithreaded Programming</mark>
 
           - Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network <mark>(Highest cache hit ratio in class)</mark>
-	  - layout: top-middle
-        title: Second project   
+          
+      - layout: top-middle
+		title: Third project   
         description: | # this will include new lines to allow paragraphs
 
           - Implementing Content-Centric Networking on Python by <mark>Multithreaded Programming</mark>
 
           - Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network <mark>(Highest cache hit ratio in class)</mark>
-	  - layout: top-middle
-        title: Second project   
+          
+      - layout: top-middle
+        title: four project   
         description: | # this will include new lines to allow paragraphs
 
           - Implementing Content-Centric Networking on Python by <mark>Multithreaded Programming</mark>
