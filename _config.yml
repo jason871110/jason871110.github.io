@@ -203,11 +203,11 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in cyber-physical system and software engineering some of my other interests and past extracurricular activities are:
-   - Runner, NCKU School Track and Field Team 
-   - Activity Organizer/Housekeeper, International Hostel, Nanjing, China 
-   - Member, Motors Club, NCKU 
-   - Member, Rotary Club, NCKU
-   - Organizer, Electrical Engineering Summer Camp, NCKU 
+      - Runner, NCKU School Track and Field Team 
+      - Activity Organizer/Housekeeper, International Hostel, Nanjing, China 
+      - Member, Motors Club, NCKU 
+      - Member, Rotary Club, NCKU
+      - Organizer, Electrical Engineering Summer Camp, NCKU 
 
 # Footer
 footer_show_references: true
