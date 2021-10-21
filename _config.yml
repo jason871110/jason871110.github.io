@@ -48,10 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Jason. I am a new graduate from NCKU. I have several experiences in developing an embedded system. I also have experience in Deep Learning, as well as developing App(Android) and Web. 
-  
-  I am most skilled in: <mark>Embedded systems</mark> and <mark>Algorithm</mark>
-
+  ii  
 content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
