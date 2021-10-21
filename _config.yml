@@ -57,17 +57,19 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: National Cheng Kung University(NCKU)
+        title: National Cheng Kung University
         caption: 2017 - 2021 
         sub_title: BSc Electrical Engineering
         description: | # this will include new lines to allow paragraphs
-          - Last 60 GPA: **4.25/4.3**;
+          - Last 60 GPA: **4.25/4.3**
           - Cumulative GPA: 3.74/4.3
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title:  Optimization for Content-Centric Networking
+        sub_title: May 2021 - June 2021
         description: |
           - Implementing Content-Centric Networking on Python by **Multithreaded Programming** 
           - Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network **(Highest cache hit ratio in class)**
