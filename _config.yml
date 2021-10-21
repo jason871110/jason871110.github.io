@@ -84,7 +84,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - aa
           
-	  - layout: top-middle
+      - layout: top-middle
         title: Optimization of Hyperplane-based Craig-simplex-identification Algorithm & Improvement for Hyperspectral Inpainting Method
         description: |
           - Developed algorithm that takes **only 50% of time** compared to the original algorithm **(Fattest in class)**
