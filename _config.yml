@@ -124,7 +124,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title:  *Third Place*, Online Research Day, NCKU College of Electrical Engineering & Computer Science 
+        title: Third Place, Online Research Day, NCKU College of Electrical Engineering & Computer Science 
         description: |
           - Received for ranking 3 out of 270 students from NCKU College of Electrical Engineering & Computer Science.(June 2021)     
       - layout: top-middle
