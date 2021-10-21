@@ -53,6 +53,16 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: National Cheng Kung University(NCKU)
+        caption: 2017 - 2021 
+        sub_title: BSc Electrical Engineering
+        description: | # this will include new lines to allow paragraphs
+          - Last 60 GPA: **4.25/4.3**;
+          - Cumulative GPA: 3.74/4.3
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
