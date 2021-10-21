@@ -82,9 +82,7 @@ content:
         #quote: >
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          - Referred to a paper posted on ICAIF 2020 about deep reinforcement learning for automated stock trading
-
-          - Proposed a deep reinforcement ensemble trading method based on the combination of **Deep Deterministic Policy Gradient (DDPG) and Advantage Actor-Critic(A2C)**, which increased cumulative return from 70.4% to 121% from Jan 2016 to May 2020 and increased Sharpe Ration from 1.30 to 1.61 compared to the approach from original method (Best final presentation in class)
+          - aa
           
 	  - layout: top-middle
         title: Optimization of Hyperplane-based Craig-simplex-identification Algorithm & Improvement for Hyperspectral Inpainting Method
