@@ -55,8 +55,8 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
+	content:
+	  - layout: top-middle
         title: Optimization for Content-Centric Networking  
       
         # link_text: Project Website
@@ -73,7 +73,24 @@ content:
           * Implementing Content-Centric Networking on Python by <mark>Multithreaded Programming</mark>
 
           * Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network <mark>(Highest cache hit ratio in class)</mark>
-     content:
+	content:
+      - layout: top-middle
+        title: Optimization for Content-Centric Networking  
+      
+        # link_text: Project Website
+        #additional_links:
+         # - title:  sproogen/modern-resume-theme
+          #  icon: fab fa-github
+            #url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          * Implementing Content-Centric Networking on Python by <mark>Multithreaded Programming</mark>
+
+          * Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network <mark>(Highest cache hit ratio in class)</mark> 
       - layout: top-middle
         title: Optimization for Content-Centric Networking  
       
@@ -91,7 +108,7 @@ content:
           * Implementing Content-Centric Networking on Python by <mark>Multithreaded Programming</mark>
 
           Optimized the cache hit ratio by setup priority queue and SDN characteristic to the network <mark>(Highest cache hit ratio in class)</mark>          
-     content:
+	content:
       - layout: top-middle
         title: Optimization for Content-Centric Networking  
       
